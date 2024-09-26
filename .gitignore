@@ -1,4 +1,3 @@
-venv/
 .env/
 .DS_Store
 .vscode
@@ -17,3 +16,4 @@ av_sync_detection/syncnet_inference.sh
 plotting/**/*.png
 plotting/**/*.csv
 plotting/**/*.numbers
+videosnap-0.0.9.pkg
