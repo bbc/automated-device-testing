@@ -1,5 +1,9 @@
 # General Setup
 
+* Simple setup:
+  * If on Mac, can run the setup script to install all requirements (and skip following section)
+  * `chmod +x setup_mac.sh`
+  * `./setup_mac.sh`
 * Requirements:
   * Clone external submodules: `git submodule update --init --recursive`
   * Set Python version to **3.10**: `pyenv global 3.10`
