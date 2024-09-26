@@ -44,6 +44,7 @@ if __name__ == '__main__':
     setup_mode_only = args.setup_mode
     split_audio_video = args.split_av_out or not audio_on or not video_on
 
+    print("PRESS 'CTRL+C' TO STOP CAPTURE")
     print(f"\nAudio devices available: \n{sounddevice.query_devices()}", end='\n\n')
     print(f" * Processes:")
     print(f"     * Audio                      : {audio_on}")
