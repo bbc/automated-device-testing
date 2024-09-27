@@ -60,7 +60,7 @@ options:
 * Detection can be completed over a video file or directory of files.
 * Can also enable **streaming** mode that continuously checks a directory for files and processes as they are added. This can be used in conjunction with the capture system to perform AV sync detection in real-time.
 * Run inference on static files at **PATH**: `python AVSyncDetection.py PATH --plot`
-* Run in streaming mode on captured video segments: `python AVSyncDetection.py ../output/capture/segments/ -sip`
+* Run in streaming mode on captured video segments: `python AVSyncDetection.py ../output/capture/segments/ -sxp`
 * If running on an Apple Silicon Mac: `python AVSyncDetection.py PATH -p --device mps`
 * If running on a GPU: `python AVSyncDetection.py PATH -p --device cuda`
 
