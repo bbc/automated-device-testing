@@ -4,6 +4,7 @@
 __pycache__/
 output/
 data/
+vis/
 av_sync_detection/vis/
 av_sync_detection/logs/
 av_sync_detection/Synchformer/vis/
