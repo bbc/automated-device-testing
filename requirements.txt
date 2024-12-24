@@ -19,4 +19,4 @@ eva-decord
 omegaconf==2.0.6
 av==10.0
 timm==0.6.12
-Pillow==9.2.0
+Pillow==10.3.0
